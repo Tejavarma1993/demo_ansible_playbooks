@@ -1,4 +1,1 @@
-#!/bin/bash
-rm -rf /tmp/dev.txt | true
-date >> /tmp/dev.txt
-echo "Hello World"
+* * * * * /bin/bash /home/k_teja_varma/cronDev.sh
