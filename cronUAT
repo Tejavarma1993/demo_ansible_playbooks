@@ -1,4 +1,1 @@
-#!/bin/bash
-rm -rf /tmp/uat.txt | true
-date >> /tmp/uat.txt
-echo "Hello CRON UAT" >> /tmp/uat.txt
+* * * * * /bin/bash /home/k_teja_varma/cronUAT.sh
