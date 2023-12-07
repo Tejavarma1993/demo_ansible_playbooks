@@ -1,0 +1,4 @@
+#!/bin/bash
+rm -rf /tmp/pro.txt | true
+date >> /tmp/pro.txt
+echo "Hello World Production " >> /tmp/pro.txt
